@@ -1,4 +1,4 @@
-export default [
+export default data[
   {
     id: 1,
     img: "https://source.unsplash.com/WLxQvbMyfas",
