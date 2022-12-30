@@ -17,6 +17,7 @@ export default function Card(props) {
           <a
             href={coordinateLink}
             target="_blank"
+            rel="noreferrer"
             className="card--info--coordinate"
           >
             View on Google Maps
