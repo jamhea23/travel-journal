@@ -1,4 +1,4 @@
-export default [
+const travelData = [
   {
     id: 1,
     img: "https://source.unsplash.com/WLxQvbMyfas",
@@ -33,3 +33,5 @@ export default [
       "The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality.",
   },
 ];
+
+export default travelData;
