@@ -5,7 +5,7 @@ export default function Card(props) {
   return (
     <div className="card">
       <div className="card--img-wrapper">
-        <img src={props.img} className="card--img" />
+        <img src={props.img} className="card--img" alt="destination" />
       </div>
 
       <div className="card--info">
