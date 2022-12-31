@@ -37,21 +37,16 @@ body {
 
 .card--img-wrapper {
   display: inline-block;
-  overflow: hidden;
   max-width: 150px;
   margin-right: 1.25rem;
   max-height: 200px;
-  border-radius: 6px;
 }
 
 .card--img {
-  display: inline-block;
-  height: auto;
+  width: 140px;
+  height: 225px;
+  border-radius: 5px;
   object-fit: cover;
-  object-position: -300px -150px;
-
-  width: 500px;
-  height: 500px;
 }
 
 .card--info {
@@ -59,6 +54,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  min-width: 316px;
 }
 
 .card--info--location {
