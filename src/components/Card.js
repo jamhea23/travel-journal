@@ -4,13 +4,13 @@ export default function Card(props) {
   const coordinateLink = props.coordinate;
   return (
     <div className="card">
-      <div className="card--img-wrapper">
+      <div className="card__img-wrapper">
         <img src={props.img} className="card--img" alt="destination" />
       </div>
 
-      <div className="card--info">
-        <p className="card--info--location">
-          <span className="card--info--location-icon">
+      <div className="card__info">
+        <p className="card__info__location">
+          <span className="card__info__location-icon">
             <i class="fa fa-map-marker" aria-hidden="true"></i>
           </span>
           {props.location}{" "}
@@ -18,17 +18,17 @@ export default function Card(props) {
             href={coordinateLink}
             target="_blank"
             rel="noreferrer"
-            className="card--info--coordinate"
+            className="card__info__coordinate"
           >
             View on Google Maps
           </a>
         </p>
 
-        <h2 className="card--info--destination">{props.destination}</h2>
-        <p className="card--info--date">
+        <h2 className="card__info__destination">{props.destination}</h2>
+        <p className="card__info__date">
           {props.dateStart} - {props.dateEnd}
         </p>
-        <p className="card--info--desc">{props.description}</p>
+        <p className="card__info__desc">{props.description}</p>
       </div>
     </div>
   );

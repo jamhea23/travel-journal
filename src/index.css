@@ -17,11 +17,11 @@ body {
   width: 100%;
 }
 
-.navbar--icon {
+.navbar__icon {
   margin-right: 10px;
 }
 
-.navbar--title {
+.navbar__title {
   font-weight: 500;
 }
 
@@ -36,7 +36,7 @@ body {
   max-width: 706px;
 }
 
-.card--img-wrapper {
+.card__img-wrapper {
   display: inline-block;
   max-width: 150px;
   margin-right: 1.25rem;
@@ -50,43 +50,43 @@ body {
   object-fit: cover;
 }
 
-.card--info {
+.card__info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
 
-.card--info--location {
+.card__info__location {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 0.17em;
   margin-bottom: 0;
 }
 
-.card--info--location-icon {
+.card__info__location-icon {
   color: #f55a5a;
 }
 
-.card--info--coordinate {
+.card__info__coordinate {
   color: #918e9b;
   font-weight: 400;
   text-transform: none;
   letter-spacing: normal;
 }
 
-.card--info--destination {
+.card__info__destination {
   font-weight: 700;
   font-size: 2rem;
   margin-bottom: 0;
 }
 
-.card--info--date {
+.card__info__date {
   font-weight: 700;
   margin-top: 2em;
 }
 
-.card--info--desc {
+.card__info__desc {
   font-weight: 400;
   margin-top: 0;
 }
