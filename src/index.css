@@ -33,6 +33,7 @@ body {
   margin: 2.5rem auto;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+  max-width: 706px;
 }
 
 .card--img-wrapper {
@@ -54,7 +55,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  min-width: 316px;
 }
 
 .card--info--location {
